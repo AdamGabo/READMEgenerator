@@ -1,6 +1,6 @@
 const inquirer = require('inquirer'); //add npm inquirer package
 const fs = require('fs'); 
-const engine = require('./utils/engine.js'); 
+const engineCreate = require('./utils/engine.js'); 
 
 console.log("README Generator"); 
 console.log("Answer the following questions to create your very own README file"); 
@@ -91,6 +91,21 @@ const commandQuestions = [
             }
           }
         }, 
+    //License 
+    {
+        type: 'checkbox', 
+        name: 'license',
+        message: 'Please choose your preferred license:',
+        choices: ['MIT','Apache'],
+        validate: TestInst => {
+            if (TestInst) {
+                return true;
+            } else {
+                console.log('Please select the license of your project');
+                return false;
+            }
+            }
+        }, 
     //Github Username 
     {
         type: 'input', 
@@ -109,7 +124,7 @@ const commandQuestions = [
     {
         type: 'input', 
         name: 'email',
-        message: 'Please enter the your email:',
+        message: 'Please enter the your email, so users may ask questions about the program:',
         validate: email => {
             if (email) {
               return true;
@@ -123,7 +138,7 @@ const commandQuestions = [
 ];
 
 //Write the README file 
-function writeFile(fileName, data) {
+function wFile(fileName, data) {
     fs.writeFile(fileName, data, (err) => {
         if (err)
         {
@@ -137,9 +152,9 @@ function writeFile(fileName, data) {
 };
 //get r going 
 function getRgoing() {
-    inquirer.createPromptModule(commandQuestions).then(function (getRdone){
+    inquirer.prompt(commandQuestions).then(function (getRdone){
         console.log(getRdone)
-        writeFile("README.md", engineCreate(getRdone) );
+        wFile("README.md", engineCreate(getRdone) );
     });
 };
 
