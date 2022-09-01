@@ -1,6 +1,7 @@
-# sdf
+# README Generator
 ## License:
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+This application is covered under the MIT License, please click the badge for license details. 
 ## Table of Contents
 - [Description](#Description)
 - [Installation-Instructions](#Installation-Instructions)
@@ -11,17 +12,17 @@
 - [Email-Address](#Email-Address)
 
 ## Description: 
-asd
+Generate a README file using node.js
 ## Installation-Instructions: 
-as
+Please find the application on github and download
 ## Usage-Information: 
-asd
+Used to create README files quickly 
 ## Contribution-Guidelines: 
-asd
+Please contribute via GIthub 
 ## Test-Instructions: 
-asd
+use BDD testing methods 
 ## Github-Username: 
 [AdamGabo](https://github.com/AdamGabo)
 ## Email-Address: 
-[adam.gaboury@hotmail.com](mailto:adam.gaboury@hotmail.com)
+[asd](mailto:asd)
 

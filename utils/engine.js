@@ -1,7 +1,12 @@
+//license function to get license is embedded in the index.JS file.
+//The badge acts as a link as seen below 
+//When the user clicks the link it will provide them with the license details
+
 function engineCreate (data) { 
 return `# ${data.title}
 ## License:
 [![License](https://img.shields.io/badge/License-${data.license}-blue.svg)](https://opensource.org/licenses/${data.license})
+This application is covered under the ${data.license} License, please click the badge for license details. 
 ## Table of Contents
 - [Description](#Description)
 - [Installation-Instructions](#Installation-Instructions)
