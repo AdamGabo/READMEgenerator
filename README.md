@@ -1,28 +1,35 @@
+
 # README Generator
-## License:
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-This application is covered under the MIT License, please click the badge for license details. 
-## Table of Contents
-- [Description](#Description)
-- [Installation-Instructions](#Installation-Instructions)
-- [Usage-Information](#Usage-Information)
-- [Contribution-Guidelines](#Contribution-Guidelines)
-- [Test-Instructions](#Test-Instructions)
-- [Github-Username](#Github-Username)
-- [Email-Address](#Email-Address)
 
-## Description: 
-Generate a README file using node.js
-## Installation-Instructions: 
-Please find the application on github and download
-## Usage-Information: 
-Used to create README files quickly 
-## Contribution-Guidelines: 
-Please contribute via GIthub 
-## Test-Instructions: 
-use BDD testing methods 
-## Github-Username: 
-[AdamGabo](https://github.com/AdamGabo)
-## Email-Address: 
-[asd](mailto:asd)
+## Contents of this File 
+---------------------
+ - [Purpose](#Purpose)
+ - [Built-With](#Built-With)
+ - [Features](#Features)
+ - [Design](#Design)
+ - [Details](#Details)  
+ - [Maintainer](#Maintainer)
 
+## Purpose
+Automatic README Generator. Please navigate to the Develop folder in your terminal and type node index.js and go through the command prompts. 
+
+## Built-With
+* NODE.js
+* JAVASCRIPT
+* JQUERY
+* INQUIRER 
+
+## Features
+* Creates the a README file using node.js 
+
+## Design
+Designed using node.js and the npm package inquirer 
+
+## Details
+* GitHub Link: https://github.com/AdamGabo/READMEgenerator
+* Video Link: https://watch.screencastify.com/v/2UrCazZQigfiNOav1WYW
+
+## Maintainers 
+Adam Gaboury
+
+### ©️2022 Adam, Inc 
